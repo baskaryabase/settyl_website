@@ -1,0 +1,181 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: flex;
+    gap: 0.35rem
+}
+
+.listitem {
+    margin: 0 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px
+}
+
+#login {
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: #EDF1FC;
+    color: #141B31;
+    border: none;
+    height: 36px;
+}
+
+#book-demo {
+    padding: 0 20px;
+    border-radius: 8px;
+    background: #141B31;
+    color: #FFFFFF;
+    border: none;
+    height: 36px;
+}
+
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    width: 100%;
+}
+
+#banner h1 {
+    font-size: 48px;
+    width: 774px;
+    text-align: center;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.clr-1 {
+    background: #F8EFFF;
+    color: #6434CE;
+
+}
+
+.clr-2 {
+    background: #EDF8FF;
+    color: #017DBC;
+
+}
+
+.clr-3 {
+    background: #F4FBD3;
+    color: #61842A;
+}
+
+#clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients h3 {
+    font-size: 18px;
+}
+
+#lasyaAI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 60px;
+    background-color: #EDF1FC;
+    color: #141B31;
+}
+
+#lasyaAI h1 {
+    font-size: 32px;
+}
+
+#lasyaAI .lasyaAIDesc {
+    margin-top: -8px;
+    font-size: 16px;
+    width: 50%;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.featuresWrapper {
+    margin: 0 100px;
+}
+.lasyaAIFeatures {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    padding: 20px 0;
+    border: 1px solid #EAEEFB;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature .icon {
+    background: #F8EFFF;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feature h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 298px;
+}
+
+.feature p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 320px;
+    margin: 0;
+}
+
+.feature img {
+    width: 32px;
+}
