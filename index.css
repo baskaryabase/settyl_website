@@ -13,6 +13,9 @@ html {
     --txt-clr-grey: #515D7E;
 }
 
+.text-align-center {
+    text-align: center;
+}
 #navbar {
     display: flex;
     flex-direction: row;
@@ -34,6 +37,10 @@ html {
 
 .listitem {
     margin: 0 10px;
+}
+
+.listitem img {
+    width: 10px;
 }
 
 .actions {
@@ -141,6 +148,14 @@ html {
     vertical-align: middle;
 }
 
+.heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
 .subHeading {
     font-weight: 600;
     font-size: 20px;
@@ -160,9 +175,7 @@ html {
 .description {
     margin-top: -8px;
     font-size: 16px;
-    width: 50%;
     line-height: 26px;
-    text-align: center;
     letter-spacing: 0;
 }
 
@@ -268,5 +281,43 @@ html {
 
 .tabContent {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.solution {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-clr-grey);
+    padding: 0 1rem 1rem 1rem;
+}
+
+.width-40 {
+    width: calc(40% - 2.8rem);
+}
+
+.width-30 {
+    width: calc(30% - 2.8rem);
+}
+
+.width-25 {
+    width: calc(25% - 2.9rem);
+}
+
+.finnanceAccounting {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--border-clr-grey);
+    border-radius: 1rem;
+    margin: 3rem 0;
+}
+
+.decisions {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
 }
