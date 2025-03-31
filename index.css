@@ -1,10 +1,21 @@
+@font-face {
+    font-family: Geist;
+    src: url(./fonts/geist/Geist-Regular.woff2);
+}
+
 html {
     font-size: 20px;
+    /* font-family: Geist; */
+}
+
+body {
+    font-family: Geist;
 }
 
 :root {
     --txt-clr-prple: #6434CE;
     --bg-prple: #F8EFFF;
+    --default-font: Geist;
     --txt-clr-blue: #017DBC;
     --bg-blue: #EDF8FF;
     --txt-clr-green: #61842A;
@@ -16,12 +27,14 @@ html {
 .text-align-center {
     text-align: center;
 }
+
 #navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 80px;
+    
 }
 
 #navbar ul {
@@ -320,4 +333,17 @@ html {
     flex-direction: row;
     gap: 1rem;
     justify-content: space-between;
+}
+.clientsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 40px;
+}
+
+.client {
+    display: flex;
+    padding: 0.25rem 1rem; 
+    border: 1px solid var(--border-clr-grey);
+    border-radius: 10px;
 }
